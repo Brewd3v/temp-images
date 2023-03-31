@@ -4,7 +4,7 @@ const handler = async (event) => {
   try {
     const timestamp = new Date().getTime();
     // console.log("timestamp", timestamp);
-    const url = `https://stately-axolotl-d70a35.netlify.app/image.png?timestamp=${timestamp}`;
+    const url = `https://stately-axolotl-d70a35.netlify.app/image_2.png?timestamp=${timestamp}`;
     const response = await fetch(url)
     const buffer = await response.arrayBuffer()
     return {
