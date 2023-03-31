@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Brewd3v/temp-images/issues"
   },
-  "homepage": "https://github.com/Brewd3v/temp-images#readme"
+  "homepage": "https://github.com/Brewd3v/temp-images#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
 }
